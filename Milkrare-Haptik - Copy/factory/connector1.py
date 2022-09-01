@@ -8,9 +8,9 @@ from pprint import pprint
 def milking(request_json):
     try:
         response = {}
-        df = pd.read_csv(r"C:\Users\satishkumar.s\Desktop\Milkrare-Haptik - Copy\factory\Haptikdata.csv",encoding='latin-1')
-        # url = "https://raw.githubusercontent.com/wazsee/Haptik_API/main/Milkrare/factory/Haptikdata.csv"
-        # df = pd.read_csv(url)
+        #df = pd.read_csv(r"C:\Users\satishkumar.s\Desktop\Milkrare-Haptik - Copy\factory\Haptikdata.csv",encoding='latin-1')
+        url = "https://github.com/wazsee/Haptik_Pincode-and-MCC-code/blob/main/Milkrare-Haptik%20-%20Copy/factory/Haptikdata.csv"
+        df = pd.read_csv(url)
         
 
         
